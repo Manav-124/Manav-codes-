@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated test artifacts
+*.db
+projects/*/reports/*.csv
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Embedded build output
+build/
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
